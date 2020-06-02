@@ -14,7 +14,7 @@ export default function ListAllPost({ users, searchValue }) {
         <ListPost users={filteredNames} />
       ) : (
         <p>
-          Nothing match, sorry <span> 😟</span>
+          Nothing match, sorry <span role="img" aria-label="frowning"> 🙁</span>
         </p>
       )}
     </>
